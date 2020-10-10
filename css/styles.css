@@ -1,0 +1,7 @@
+body{
+    text-align: center; 
+}
+.first-text jumbotron{
+    background-image: url("IP3-master/assets/backgrounds/h_img.jpg");
+    padding: 5px;
+}
