@@ -1,14 +1,14 @@
 $(document).ready(function(){
-    $("DEVELOPMENT").click(function(){
-      $("p").toggle();
+    $("#des").click(function(){
+      $("#one").toggle();
     });
 
-    $("PRODUCT MANAGEMENT").click(function(){
-        $("p").toggle();
+    $("#dev").click(function(){
+        $("#two").toggle();
     });
 
-    $("DESING").click(function(){
-        $("p").toggle();
+    $("#pro").click(function(){
+        $("#three").toggle();
     });
 
 
