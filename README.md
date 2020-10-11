@@ -6,9 +6,9 @@ Emmanuel Otieno
 
 ## Tecnology Used
 
-HTML - in writing the wedsite
-CSS - in styling the website
-Javascript - making the website to function as recomended
+* HTML - in writing the wedsite
+* CSS - in styling the website
+* Javascript - making the website to function as recomended
 
 ## License
 
