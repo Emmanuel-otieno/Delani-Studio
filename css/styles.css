@@ -4,12 +4,14 @@ body{
 .first-text jumbotron{
     background-image: url("../IP3-master/assets/backgrounds/h_img.jpg");
     padding: 5px;
+   text-align: center;
 }
 .service{
     color: white;
     padding: 6px;
     background-image: url("../IP3-master/assets/backgrounds/s_image.jpg");
     font-family:Shadows Into Light ;
+    text-align: center; 
 }
 .logo{
     float: none;
@@ -23,11 +25,15 @@ body{
     height: 100%;
     width: 100%;
     display: none;
-    background-color: white;
     opacity: o.5;
 }
 .conta{
+    text-align: center;
     color: white;
     border: white;
     background-image: url("../IP3-master/assets/backgrounds/c_image.jpg");
+}
+footer{
+    text-align: center;
+    padding: 10px;
 }
