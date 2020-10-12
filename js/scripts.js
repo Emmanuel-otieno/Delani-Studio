@@ -16,6 +16,7 @@ $(document).ready(function(){
 
 function contactUs(){
 
+
   if( document.myForm.Name.value == "" ) {
     alert( "Please provide your name!" );
     document.myForm.Name.focus() ;
@@ -60,6 +61,7 @@ $(document).ready(function () {
         })
         .mouseout(function () {
                  $("#work5").hide();
+        });
     $("#omg6").mouseover(function () {
                 $("#work6").show();
             })
@@ -79,8 +81,6 @@ $(document).ready(function () {
                 $("#work8").hide();
             });
     
-
  });
 
 
- });
