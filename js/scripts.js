@@ -13,13 +13,26 @@ $(document).ready(function(){
 
 
 });
+
 function contactUs(){
-    var x = document.forms["myForm"]["fname"].value;
-  if (x == "") {
-    alert("Name must be filled out");
-   return false;
-  }
-  else{
-      alert("" +"we have received your message" + "Thank you fro reaching out to us");
-  }
+
+  if( document.myForm.Name.value == "" ) {
+    alert( "Please provide your name!" );
+    document.myForm.Name.focus() ;
+    return false;
+ }
+ if( document.myForm.EMail.value == "" ) {
+    alert( "Please provide your Email!" );
+    document.myForm.EMail.focus() ;
+    return false;
+ }
 }
+
+$('.col').hover(function(){
+
+
+
+
+
+
+});
