@@ -1,4 +1,8 @@
 $(document).ready(function(){
+    $("#one").hide();
+    $("#two").hide();
+    $("#three").hide();
+
     $("#des").click(function(){
       $("#one").toggle();
     });
@@ -8,26 +12,29 @@ $(document).ready(function(){
     });
 
     $("#pro").click(function(){
+
         $("#three").toggle();
+        
     });
 
 
 });
+//var name = document.getElementById("name").value();
+//function contactUs(){
+    
+  //  document.getElementById("myForm").click();
+    //alert("Thank you  for your response.")
 
-function contactUs(){
 
-
-  if( document.myForm.Name.value == "" ) {
-    alert( "Please provide your name!" );
-    document.myForm.Name.focus() ;
-    return false;
- }
- if( document.myForm.EMail.value == "" ) {
-    alert( "Please provide your Email!" );
-    document.myForm.EMail.focus() ;
-    return false;
- }
-}
+//};
+$(document).ready(function(){
+    $("form").submit(function(){
+        alert("Thank you for your response.")
+     });
+});
+//$("#myForm").submit(function(){
+  // alert("Thank you for your response.")
+//});
 
 $(document).ready(function () {
     $("#omg1").mouseover(function () {

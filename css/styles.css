@@ -1,10 +1,13 @@
 body{
     text-align: center; 
 }
-.first-text jumbotron{
+.jumbotron{
     background-image: url("../IP3-master/assets/backgrounds/h_img.jpg");
-    padding: 5px;
+    padding: 15px;
    text-align: center;
+}
+.container{
+    text-align: center;
 }
 .service{
     color: white;
@@ -20,12 +23,9 @@ body{
 .port{
     text-align: center;
     padding: 5px;
-    margin: 5px;
-    position: absolute;
-    top: 0;
+    margin-left: 5px;
     height: 100%;
     width: 100%;
-    display: none;
     opacity: o.5;
 }
 .conta{
