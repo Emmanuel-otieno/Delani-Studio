@@ -3,8 +3,9 @@ body{
 }
 .jumbotron{
     background-image: url("../IP3-master/assets/backgrounds/h_img.jpg");
-    padding: 15px;
+    padding: 300px;
    text-align: center;
+   color: white;
 }
 .container{
     text-align: center;
