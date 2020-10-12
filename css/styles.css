@@ -18,6 +18,13 @@ body{
 .port{
     padding: 5px;
     margin: 5px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-color: white;
+    opacity: o.5;
 }
 .conta{
     color: white;
